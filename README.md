@@ -46,7 +46,7 @@ npm run dev
 
 You can try the app online without installing anything:
 
-[Live Demo — Test Online](https://melodious-lamington-621927.netlify.app/)
+[Live Demo — Test Online](https://reacttodolistcrud.netlify.app/)
 
 ---
 
