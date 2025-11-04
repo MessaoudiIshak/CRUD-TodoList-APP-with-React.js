@@ -1,16 +1,54 @@
-# React + Vite
+# Simple Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Todo List app built with React and Vite.
 
-Currently, two official plugins are available:
+It supports:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Create tasks
+- View tasks
+- Edit tasks
+- Delete tasks
 
-## React Compiler
+All tasks are stored in localStorage so your todos persist across page reloads.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Feature         | Description                                     |
+|-----------------|--------------------------------------------------|
+| Create Task     | Add new todos to your list                       |
+| View Tasks      | See all your todos at a glance                   |
+| Edit Task       | Modify an existing todo                          |
+| Delete Task     | Remove a todo from the list                      |
+| Persistent Data | Tasks are saved in localStorage across sessions  |
+
+---
+
+## Run the App Locally
+
+1. Clone the repository and navigate into the project directory.
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+4. Open your browser to the URL shown in the terminal (commonly http://localhost:5173).
+
+## Test Online (Live Demo)
+
+You can try the app online without installing anything:
+
+[Live Demo — Test Online](https://melodious-lamington-621927.netlify.app/)
+
+---
+
+
+
